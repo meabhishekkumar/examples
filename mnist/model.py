@@ -47,7 +47,7 @@ def parse_arguments():
                       help='GCS path or local directory to export model')
   parser.add_argument('--tf-model-type',
                       type=str,
-                      default='CNN',
+                      default='LINEAR',
                       help='Tensorflow model type for training.')
   parser.add_argument('--tf-train-steps',
                       type=int,
